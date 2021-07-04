@@ -10,7 +10,7 @@ h1 {
 .color-orange {
     color: orange;
 }
-section {
+.flexible_container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -24,7 +24,7 @@ section {
 
 .link_button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(salmon, tomato);
     color: #fff;
     font-weight: 700;
     border-radius: 7px;
@@ -36,4 +36,60 @@ section {
 }
 .dream_big {
     background: url(../images/dream-bg.png) no-repeat right;
+}
+.experience_area {
+    background: url(../images/exp-bg.png) no-repeat left;
+}
+
+.experience_item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.dev_font {
+    font-size: 40px;
+}
+
+.experience_item p {
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 100px;
+}
+
+#developer_border {
+    border-right: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#developer_border_two {
+    border-right: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+footer {
+    background-color: gray;
+}
+
+footer p {
+    text-align: center;
+    color : #fff;
+    background-image:  linear-gradient(salmon, tomato);
+    font-size: 17px;
+    padding: 10px;
+}
+
+.custom_margin {
+    margin-bottom: 35px;
+}
+
+.experience_item span {
+
+   color: tomato;
+
 }
